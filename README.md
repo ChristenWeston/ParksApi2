@@ -8,7 +8,7 @@
 #### A National Park API! Now! With JWT Authorization
 
 ### Authorize Yourself
-1. Use the POST /Account/login route to sign in. You can use any name or password. Make sure they are at least 5 characters or more.
+1. Go to https://localhost:5001/swagger/  and use the POST /Account/login route to sign in. You can use any name or password. Make sure they are at least 5 characters or more.
 2. Copy the `jwtToken` value from the response
 3. Click the "Authorize" button
 4. Paste the `jwtToken` value from step 2 into the 'Value' box for Bearer token
